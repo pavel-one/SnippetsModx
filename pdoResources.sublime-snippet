@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\{'pdoResources' | snippet: [
+    'parents' => ${1:0},
+    'tvPrefix' => '',
+    'includeTVs' => '${2:image}',
+    'limit' => ${3:10},
+    'depth' => ${4:2},
+    'sortdir' => '${5:ASC}',
+    'prepareTVs' => ${6:1},
+    'sortby' => '${7:menuindex}',
+    'tpl' => '@FILE pdo/${8:chunk}.tpl',
+    ${9:'where' => [
+        'isfolder' => ''
+    ]}
+
+]\}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdoResources</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
