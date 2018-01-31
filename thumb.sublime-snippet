@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-\{${1:\$image} | ${2:phpThumbOn}: 'w=${3:100}&h=${4:100}&zc=${5:1}&q=${6:80}'}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>thumb</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
