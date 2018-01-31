@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{'pdoMenu' | snippet : [
+  'tplOuter' => '${1:@INLINE <ul>\{\$wrapper\}</ul>}',
+  'parents' => ${2:0},
+  'depth' => ${3:1},
+  'hereClass' => '${4:active}',
+  'tpl' => '${5:@INLINE <li \{\$classes\}><a href="\{\$link\}">\{\$menutitle\}</a></li>}'
+]}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdoMenu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
